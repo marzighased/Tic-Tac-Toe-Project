@@ -1,0 +1,70 @@
+
+body {
+    background-color: #323232;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+#content {
+    position: relative;
+}
+
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.winning-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;   
+}
+
+
+td:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+  
+  
+table tr:first-child td {
+    border-top: none; /* Remove top border */
+}
+table tr:last-child td {
+    border-bottom: none; /* Remove bottom border */
+}
+table tr td:first-child {
+    border-left: none; /* Remove left border */
+}
+table tr td:last-child {
+    border-right: none; /* Remove right border */
+}
+  
